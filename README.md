@@ -22,6 +22,8 @@ pip install pandas numpy
 python mini_backtest.py
 ```
 
+Free download (pay-what-you-want, $0+): <https://3646932072370.gumroad.com/l/omxtno> — or grab the release zip on this repo's Releases page.
+
 Example output (BTC/USD 2022-01-01 → 2026-10-24, 10 bps/side):
 
 ```
