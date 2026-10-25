@@ -127,7 +127,9 @@ def main() -> None:
             ("n_years", "Years")]
     for key, label in keys:
         s, b = m[key], bh[key]
-        if isinstance(s, float):
+        if key in ("n_years", "sharpe"):
+            s, b = f"{s:.2f}", f"{b:.2f}"
+        elif isinstance(s, float):
             s, b = f"{s:.2%}", f"{b:.2%}"
         lines.append(f"| {label} | {s} | {b} |")
     with open(os.path.join(HERE, "mini_report.md"), "w", encoding="utf-8") as fh:
