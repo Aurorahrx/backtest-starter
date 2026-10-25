@@ -35,6 +35,11 @@ Example output (BTC/USD 2022-01-01 → 2026-10-24, 10 bps/side):
 > that's the point. Before you trust any strategy: walk-forward, deflated Sharpe,
 > multiple markets, and cost sensitivity. The prompts in `prompts/` walk you through it.
 
+## Related paid tools (launch week)
+
+- **Quant Research Template Pack** ($39, code `LAUNCH29`): 6 strategy families, walk-forward, anti-overfitting handbook, 30 research prompts — <https://3646932072370.gumroad.com/l/cojibt>
+- **Crypto Tax Kit Pro** ($49, code `LAUNCH39`): local-first FIFO/moving-average cost basis, XLSX reports, JPY conversion — <https://3646932072370.gumroad.com/l/jfnthy>
+
 ## Disclaimer
 
 This repository is for education and research tooling. Nothing here is investment advice,
